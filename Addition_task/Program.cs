@@ -18,8 +18,10 @@ namespace Addition_task
     {
         static void Main(string[] args)
         {
-            int a = MyClass<int>.FactoryMethod();
-            Console.WriteLine(a.GetType().Name);
+            int operand = MyClass<int>.FactoryMethod();
+            Console.WriteLine(operand.GetType().Name);
+
+            Console.ReadKey();
         }
     }
 }
