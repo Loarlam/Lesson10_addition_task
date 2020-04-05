@@ -19,7 +19,7 @@ namespace Addition_task
         static void Main(string[] args)
         {
             int operand = MyClass<int>.FactoryMethod();
-            Console.WriteLine(operand.GetType().Name);
+            Console.WriteLine($"Тип = {operand.GetType().Name}");
 
             Console.ReadKey();
         }
